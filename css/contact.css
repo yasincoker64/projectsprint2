@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  body{
+    background-image: url("../img/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    
+    display: grid;
+    place-items: center;
+  }
+
+  .navbar {
+    height: 7vh;
+    background: rgba(255, 0, 0, 0.4);;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+  .navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+  }
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+  li a {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 25px;
+    transition: 0.2s;
+    
+  }
+  
+  li a:hover{
+      color:black;
+  }
+  
+  
+  .form-heading {
+    font-family: "Arial", sans-serif;
+    font-size: 6rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    border-radius: 10%;
+    background-color:rgba(6, 89, 71, 0.9);
+    letter-spacing: 0.3rem;
+    margin-bottom: 3rem;
+    transition: all 0.3s;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form-input {
+    width: 60rem;
+    height: 5rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: gray;
+    border: 0.1rem solid #fff;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #aaa;
+    letter-spacing: 0.1rem;
+    outline: none;
+  }
+  
+  .contact-form-input:focus {
+    color: #fff;
+    border: 0.1rem solid #d699e6;
+  }
+  
+  .contact-form-input::placeholder {
+    color: #fff;
+  }
+  
+  .contact-form-textarea {
+    height: 20rem;
+    resize: none;
+  }
+  
+  .form-submit-btn {
+    width: 20rem;
+    height: 5rem;
+    background-color: #fff;
+    border: none;
+    font-size: 1.8rem;
+    color: #929292;
+    cursor: pointer;
+  }
